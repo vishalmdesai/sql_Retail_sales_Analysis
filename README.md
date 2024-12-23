@@ -47,6 +47,7 @@ SELECT * FROM retail_sales_analysis;
 • Customer Count: Find out how many unique customers are in the dataset.  
 • Category Count: Identify all unique product categories in the dataset.  
 • Null Value Check: Check for any null values in the dataset and delete records with missing data.
+
 ```sql
 SELECT * FROM retail_sales_analysis;
 
@@ -55,7 +56,7 @@ SELECT COUNT(*)AS TOTAL_SALE FROM retail_sales_analysis;
 SELECT COUNT(DISTINCT(customer_id))AS UNIQUE_CUSTOMER FROM retail_sales_analysis;
 
 SELECT DISTINCT(category) AS UNIQUE_CATEGORY FROM retail_sales_analysis;
-
+```
 
 ```sql
 SELECT * FROM retail_sales_analysis
