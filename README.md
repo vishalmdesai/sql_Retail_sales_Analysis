@@ -118,3 +118,10 @@ WHERE
 
 SELECT count(*) FROM retail_sales_analysis;
 ```
+## DATA ANALYSIS & BUSSINESS KEY PROBLEM'S & ANSWERS.
+
+1.] Write a SQL query to retrieve all columns for sales made on '2022-11-05'
+```sql
+SELECT * FROM retail_sales_analysis
+ where sale_date = '2022-11-05';
+```
